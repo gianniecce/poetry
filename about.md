@@ -1,20 +1,10 @@
 ---
 layout: page
-title: About Pixyll
+title: About 
 permalink: /about/
-tags: about
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+Let me share with you my poetry. Feel free to quote my poems in using the name of this website and my name (Giacomo Ecce). The poetry that is not mine is cited explicitly. I wish you a long poetic journey. 
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+Website created by [me](https://twitter.com/giacomoecce) using the [Jekyll](http://jekyllrb.com/) theme [pixyll](https://github.com/johnotander/pixyll) and hosted freely on [Github](https://github.com/). 
 
-Thanks to the following:
-
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Type Scale](http://type-scale.com/)
