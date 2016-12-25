@@ -1,119 +1,188 @@
-# 🏆 – A Blog Theme for Jekyll
-Trophy is a blog theme for Jekyll built using HTML, Sass, and JavaScript (no jQuery). External stylesheets and libraries included are Google Fonts, Font Awesome, Normalize.CSS, and WOW.js.
+# Pixyll
 
-## Screenshots
-Blog Page (Posts)
-![Blog Page](https://github.com/thomasvaeth/trophy/blob/master/_screenshots/screenshot-1.png "Desktop screenshot")
+[pixyll.com](http://www.pixyll.com)
 
-Blog Page (Categories)
-![Blog Page](https://github.com/thomasvaeth/trophy/blob/master/_screenshots/screenshot-2.png "Desktop screenshot")
+![Pixyll screenshot](https://cloud.githubusercontent.com/assets/1424573/3847467/134aa236-1e66-11e4-8421-4e8c122118dc.png)
 
-Post Page (Mast)
-![Post Page](https://github.com/thomasvaeth/trophy/blob/master/_screenshots/screenshot-3.png "Desktop screenshot")
+Pixyll is a simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff. It's mobile _first_, fluidly responsive, and delightfully lightweight.
 
-Post Page (Profile & Footer)
-![Post Page](https://github.com/thomasvaeth/trophy/blob/master/_screenshots/screenshot-4.png "Desktop screenshot")
+It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.
 
-Archive Page
-![Archive Page](https://github.com/thomasvaeth/trophy/blob/master/_screenshots/screenshot-5.png "Desktop screenshot")
+This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
+([@4lpine](https://twitter.com/4lpine)).
 
-## Installation
-All dependencies are saved in the ````Gemfile````. Run ````bundle install```` (Install [Bundler](http://bundler.io/) if it is not already) after cloning the repo.
+中文版 <https://github.com/ee0703/pixyll-zh-cn>.
 
-## Edit Theme
-I made everything as easy as possible to edit. Most things can be found in the ````_config.yml````, but if more editing is required digging through the code will be required. The ````head.html```` file is in the ````_includes```` folder and the Sass variables are found in the ````_base.scss```` file in the ````_sass```` folder.
+## Getting Started
 
-### _config.yml
+If you're completely new to Jekyll, I recommend checking out the documentation at <http://jekyllrb.com> or there's a tutorial by [Smashing Magazine](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/).
 
-#### Site Settings
-    email: 
-    baseurl: ""
-    paginate: 5
-    paginate_path: "/blog/page-:num"
-    google_analytics: UA—XXXXXXXX-X
+### Installing Jekyll
 
-* ````email```` - Your email for the contact card and the footer
-* ````baseurl```` - Path of blog if adding this on to another website
-* ````paginate```` - Number of blog posts per page
-* ````paginate_path```` - URL structure of paginated pages
-* ````google_analytics```` - Option field to replace with correct Google Analytics code
+If you don't have Jekyll already installed, you will need to go ahead and do that.
 
-#### SEO Settings
-    title: 
-    description: 
-    url: ""
-    twitter_username: 
-    default_img: 
+```
+$ gem install jekyll
+```
 
-* ````title```` - Title of blog
-* ````description```` - Description of blog (recommended to not go over 160 characters)
-* ````url```` - URL of main website
-* ````twitter_username```` - Twitter username
-* ````default_img```` - Image that will appear when posting links on social networks
+#### Verify your Jekyll version
 
-#### Profile Settings
-    name: 
-    profile_img: 
-    profile: 
-    social:
-      github: 
+It's important to also check your version of Jekyll since this project uses Native Sass which
+is [only supported by 2.0+](http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/).
 
-* ````name```` - Full name for SEO purposes
-* ````profile_img```` - Image for the profile card (size to 2000x1200px)
-* ````profile```` - Short description that will be in the profile card
-* ````social```` - List of social networks for icons in the contact card and the footer ([Font Awesome](http://fontawesome.io/) is used, so only match the name of the icon, but do not include ````fa-````)
+```
+$ jekyll -v
+# This should be jekyll 2.0.0 or later
+```
 
+### Fork, then clone
 
-#### Build Settings
-    include: ["_categories"]
-    exclude: []
-    permalink: /:year/:month/:day/:title/
+Fork the repo, and then clone it so you've got the code locally.
 
-* ````include```` - Folders that are not automatically included in Jekyll
-* ````exclude```` - Folders that are excluded from `_site_`
-* ````permalink```` - URL structure of blog posts
+### Modify the _config.yml
 
-### _posts
-    ---
-    layout: post
-    title: ""
-    date: 
-    categories:
-    description: 
-    image: 
-    image-sm:
-    ---
+The `_config.yml` located in the root of the Pixyll directory contains all of the configuration details
+for the Jekyll site. The defaults are:
 
-This is the YAML front matter block for blog posts.
-* ````layout```` - This field will always be post
-* ````title```` - The title of the blog post
-* ````date```` - The date that will appear on the blog post
-* ````categories```` - Optional field that can be entered as an array or a list
-* ````description```` - Optional field for SEO (recommended to not go over 160 characters)
-* ````image```` - The blog theme was designed for 2000x1200px images (optimize your images because this is a picture heavy theme)
-* ````image-sm```` - Optional field for card layouts for image optimization and page speed (designed for 500x300px images)
+```yml
+# Site settings
+title: Pixyll
+email: your_email@example.com
+author: John Otander
+description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+baseurl: ""
+url: "http://pixyll.com"
 
-### _categories
-    ---
-    layout: default
-    title: New Category
-    description:
-    permalink: /category/new-category/
-    ---
-    {% include category.html %}
+# Build settings
+markdown: kramdown
+permalink: pretty
+paginate: 3
+```
 
-Jekyll does not have anything built in for categories, so I made making new categories as simple as possible.
-* ````layout```` - This field will always be default
-* ````title```` - Name of the category
-* ````description```` - Optional field for SEO (recommended to not go over 160 characters)
-* ````permalink```` - URL for the category
+### Jekyll Serve
 
-## Upcoming Additions
-* Page transitions
-* More styled elements for blog posts
+Then, start the Jekyll Server. I always like to give the `--watch` option so it updates the generated HTML when I make changes.
 
-## Issues
-Please submit any issues [here](https://github.com/thomasvaeth/trophy/issues).
+```
+$ jekyll serve --watch
+```
 
-## License
-Trophy is licensed under the MIT License.
+Now you can navigate to `localhost:4000` in your browser to see the site.
+
+### Using Github Pages
+
+You can host your Jekyll site for free with Github Pages. [Click here](https://pages.github.com/) for more information.
+
+#### A configuration tweak if you're using a gh-pages sub-folder
+
+In addition to your github-username.github.io repo that maps to the root url, you can serve up sites by using a gh-pages branch for other repos so they're available at github-username.github.io/repo-name.
+
+This will require you to modify the `_config.yml` like so:
+
+```yml
+# Site settings
+title: Repo Name
+email: your_email@example.com
+author: John Otander
+description: "Repo description"
+baseurl: "/repo-name"
+url: "http://github-username.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+paginate: 3
+```
+
+This will ensure that the the correct relative path is constructed for your assets and posts. Also, in order to run the project locally, you will need to specify the blank string for the baseurl: `$ jekyll serve --baseurl ''`.
+
+##### If you don't want the header to link back to the root url
+
+You will also need to tweak the header include `/{{ site.baseurl }}`:
+
+```html
+<header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="{{ site.url }}/{{ site.baseurl }}">{{ site.title }}</a>
+      <nav class="site-nav right">
+        {% include navigation.html %}
+      </nav>
+    </div>
+  </div>
+</header>
+```
+
+A relevant Jekyll Github Issue: <https://github.com/jekyll/jekyll/issues/332>
+
+### Contact Form
+
+If you'd like to keep the contact form, which uses <http://formspree.io>, you will need to update the email address.
+
+Currently, the `contact.html` has the following:
+
+```html
+<form action="http://formspree.io/johnotander@icloud.com" method="POST" class="form-stacked form-light">
+```
+
+Where it says `johnotander@icloud.com`, you will need to change that to the email that you wish to have the form data sent to. It will require you to fill the form out when you push it live for the first time so that you can confirm your email.
+
+More setup instructions and advanced options can be found at [http://formspree.io](http://formspree.io/)
+
+### Disqus
+
+To configure Disqus, set up a [Disqus site](https://disqus.com/admin/create/) with the same name as your site. Once that is complete,
+go to the admin page for your site. Under the "Settings" tab there is a button called "Universal Code". Take that code and replace it
+in the `_layouts/post.html` file between the `{% if site.disqus_shortname %}` and `{% endif %}` tags.
+
+### Customizing the CSS
+
+All variables can be found in the `_sass/_variables.scss` file, toggle these as you'd like to change the look and feel of Pixyll.
+
+### Page Animation
+
+If you would like to add a [fade-in-down effect](http://daneden.github.io/animate.css/), you can add `animated: true` to your `_config.yml`.
+
+### Put in a Pixyll Plug
+
+If you want to give credit to the Pixyll theme with a link to <http://pixyll.com> or my personal website <http://johnotander.com> somewhere, that'd be awesome. No worries if you don't.
+
+### Enjoy
+
+I hope you enjoy using Pixyll. If you encounter any issues, please feel free to let me know by creating an [issue](https://github.com/johnotander/pixyll/issues). I'd love to help.
+
+## Upgrading Pixyll
+
+Pixyll is always being improved by its users, so sometimes one may need to upgrade.
+
+#### Ensure there's an upstream remote
+
+If `git remote -v` doesn't have an upstream listed, you can do the following to add it:
+
+```
+git remote add upstream https://github.com/johnotander/pixyll.git
+```
+
+#### Pull in the latest changes
+
+```
+git pull upstream master
+```
+
+There may be merge conflicts, so be sure to fix the files that git lists if they occur. That's it!
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+## Thanks to the following:
+
+* [BASSCSS](http://basscss.com)
+* [Jekyll](http://jekyllrb.com)
+* [Refills](http://refills.bourbon.io/)
+* [Solarized](http://ethanschoonover.com/solarized)
+* [Animate.css](http://daneden.github.io/animate.css/)
