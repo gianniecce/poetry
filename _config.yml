@@ -3,8 +3,8 @@ title:       La-malmesure-des-mots
 email:       les_pas_perdus@yahoo.fr
 author:      Giacomo Vagni
 description: "Poetry, cinema and marxism"
-baseurl:     "poetry"
-url:         "https://gianniecce.github.io"
+baseurl:     ""
+url:         ""
 date_format: "%b %-d, %Y"
 
 category-list: [Poetry, Cinema, Misc]
