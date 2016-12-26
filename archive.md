@@ -9,7 +9,7 @@ permalink: /archive/
       <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       <p>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.content | strip_html | truncatewords: 5 }}
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <!-- post.content | strip_html | truncatewords: 5 -->
       </a>
       </p>
       </li>

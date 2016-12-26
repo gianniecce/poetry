@@ -2,9 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>La-malmesure-des-mots</title>
-    <description>A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff.</description>
+    <description>Poetry, cinema and marxism</description>
     <link>http://pixyll.com/</link>
     <atom:link href="http://pixyll.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Looking for Bourdieu Trailer</title>
+        <description>&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/944iJXAAfXA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;This is the trailer&lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
+        <link>http://pixyll.com/2016/12/26/looking-for-Bourdieu-trailer/</link>
+        <guid isPermaLink="true">http://pixyll.com/2016/12/26/looking-for-Bourdieu-trailer/</guid>
+      </item>
+    
+      <item>
+        <title>Looking for Bourdieu (Part 1)</title>
+        <description>&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/i-aHf-_BgKc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The full movie&lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
+        <link>http://pixyll.com/2016/12/26/looking-for-Bourdieu/</link>
+        <guid isPermaLink="true">http://pixyll.com/2016/12/26/looking-for-Bourdieu/</guid>
+      </item>
+    
+      <item>
+        <title>Amor Fati</title>
+        <description>&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/i3cUMmpX-lg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The full movie&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/share&quot; class=&quot;twitter-share-button&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
+        <link>http://pixyll.com/2016/12/26/Amor-Fati/</link>
+        <guid isPermaLink="true">http://pixyll.com/2016/12/26/Amor-Fati/</guid>
+      </item>
     
       <item>
         <title>Je te Tu</title>
@@ -50,8 +86,8 @@ la terre sans fertilité, sans fer, tu donnes la leçon à ce qui n’a pas de g
 
 </description>
         <pubDate>Sat, 17 Oct 2015 00:00:00 +0100</pubDate>
-        <link>http://pixyll.com/lou/2015/10/17/test/</link>
-        <guid isPermaLink="true">http://pixyll.com/lou/2015/10/17/test/</guid>
+        <link>http://pixyll.com/2015/10/17/test/</link>
+        <guid isPermaLink="true">http://pixyll.com/2015/10/17/test/</guid>
       </item>
     
       <item>
@@ -269,117 +305,6 @@ est bien arrivé.&lt;/p&gt;
         <pubDate>Fri, 09 Oct 2015 00:00:00 +0100</pubDate>
         <link>http://pixyll.com/shakespeare/2015/10/09/benvolio/</link>
         <guid isPermaLink="true">http://pixyll.com/shakespeare/2015/10/09/benvolio/</guid>
-      </item>
-    
-      <item>
-        <title>si tu savais</title>
-        <description>&lt;p&gt;&lt;strong&gt;Si tu savais.&lt;/strong&gt; &lt;em&gt;Corps et Biens (1930). Robert Desnos.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; title=&quot;Photograph by Man Ray, c. 1923.&quot;&gt;&lt;img src=&quot;https://s-media-cache-ak0.pinimg.com/736x/ef/68/fc/ef68fcf36129cc64943abc380f8d614d.jpg&quot; width=&quot;800&quot; height=&quot;600&quot; alt=&quot;Desnos&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;Loin de moi et semblable aux étoiles et à tous les accessoires de la mythologie poétique,&lt;/p&gt;
-
-&lt;p&gt;Loin de moi et cependant présente à ton insu,&lt;/p&gt;
-
-&lt;p&gt;Loin de moi et plus silencieuse encore parce que je t’imagine sans
-cesse,&lt;/p&gt;
-
-&lt;p&gt;Loin de moi, mon joli mirage et mon rêve éternel, tu ne peux pas savoir.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Si tu savais.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Loin de moi et peut-être davantage encore de m’ignorer et m’ignorer encore.&lt;/p&gt;
-
-&lt;p&gt;Loin de moi parce que tu ne m’aimes pas sans doute ou, ce qui revient
-    au même, que j’en doute.&lt;/p&gt;
-
-&lt;p&gt;Loin de moi parce que tu ignores sciemment mes désirs passionnés&lt;/p&gt;
-
-&lt;p&gt;Loin de moi parce que tu es cruelle.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Si tu savais.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Loin de moi, ô joyeuse comme la fleur qui danse dans la rivière au
-bout de sa tige aquatique, ô triste comme sept heures du soir dans les champignonnières.&lt;/p&gt;
-
-&lt;p&gt;Loin de moi silencieuse encore ainsi qu’en ma présence et joyeuse
-encore comme l’heure en forme de cigogne qui tombe de haut.&lt;/p&gt;
-
-&lt;p&gt;Loin de moi à l’instant où chantent les alambics, l’instant où la mer silencieuse et bruyante se replie sur les oreillers blancs.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Si tu savais.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Loin de moi, ô mon présent présent tourment, loin de moi au bruit magnifique des coquilles d’huîtres qui se brisent sous le pas du noctambule, au petit jour, quand il passe devant la porte des restaurants.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Si tu savais.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Loin de moi, volontaire et matériel mirage.&lt;/p&gt;
-
-&lt;p&gt;Loin de moi, c’est une île qui se détourne au passage des navires.&lt;/p&gt;
-
-&lt;p&gt;Loin de moi un calme troupeau de boeufs se trompe de chemin, s’arrête obstinément au bord d’un profond précipice, loin de moi, ô cruelle.&lt;/p&gt;
-
-&lt;p&gt;Loin de moi, une étoile filante choit dans la bouteille nocturne du
-poète. Il met vivement le bouchon et dès lors il guette l’étoile enclose dans le verre, il guette les constellations qui naissent sur les    parois, loin de moi, tu es loin de moi.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Si tu savais.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Loin de moi une maison achève d’être construite.&lt;/p&gt;
-
-&lt;p&gt;Un maçon en blouse blanche au sommet de l’échafaudage chante une petite chanson très triste et, soudain, dans le récipient empli de mortier apparaît le futur de la maison : 1es baisers des amants et les suicides à deux et la nudité dans les chambres des belles inconnues et leurs rêves- à minuit, et les secrets voluptueux surpris par les lames de parquet.&lt;/p&gt;
-
-&lt;p&gt;Loin de moi,&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Si tu savais.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Si tu savais comme je t’aime et, bien que tu ne m’aimes pas, comme je suis joyeux, comme je suis robuste et fier de sortir avec ton image en tête, de sortir de l’univers.&lt;/p&gt;
-
-&lt;p&gt;Comme je suis joyeux à en mourir.&lt;/p&gt;
-
-&lt;p&gt;Si tu savais comme le monde m’est soumis.&lt;/p&gt;
-
-&lt;p&gt;Et toi, belle insoumise aussi, comme tu es ma prisonnière.&lt;/p&gt;
-
-&lt;p&gt;Ô toi, loin de moi, à qui je suis soumis.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Si tu savais.&lt;/em&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 08 Oct 2015 00:00:00 +0100</pubDate>
-        <link>http://pixyll.com/desnos/2015/10/08/si-tu-savais/</link>
-        <guid isPermaLink="true">http://pixyll.com/desnos/2015/10/08/si-tu-savais/</guid>
-      </item>
-    
-      <item>
-        <title>Announcing Version 2.0</title>
-        <description>&lt;p&gt;In an effort to make Pixyll easier to customize and more aesthetically pleasing, we’ve release version &lt;code&gt;2.0&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Pixyll now features:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Line anchors in code blocks and new syntax highlighting&lt;/li&gt;
-  &lt;li&gt;A customizable variables file&lt;/li&gt;
-  &lt;li&gt;Modular, and lighter weight CSS&lt;/li&gt;
-  &lt;li&gt;No more &lt;code&gt;max-width&lt;/code&gt; media queries&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 11 Jul 2015 00:00:00 +0100</pubDate>
-        <link>http://pixyll.com/jekyll/pixyll/2015/07/11/announcing-pixyll-version-2/</link>
-        <guid isPermaLink="true">http://pixyll.com/jekyll/pixyll/2015/07/11/announcing-pixyll-version-2/</guid>
-      </item>
-    
-      <item>
-        <title>amour a mort</title>
-        <description>&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/136480412@N05/21815730821/in/datetaken/&quot; title=&quot;2015 June Brighton&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5751/21815730821_d9b1933f5f_o.jpg&quot; alt=&quot;2015 June Brighton&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;La grandeur des espaces se mesure à la volatilité d’une réflexion, la couleur des mots dans le vague de leur mouvement.&lt;/p&gt;
-
-&lt;p&gt;Je me suis décrit, près de toi, dans mon invariable mesure; celle de notre passé commun. Communiquant.&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 11 Jul 2015 00:00:00 +0100</pubDate>
-        <link>http://pixyll.com/ocean/2015/07/11/amour-a-mort/</link>
-        <guid isPermaLink="true">http://pixyll.com/ocean/2015/07/11/amour-a-mort/</guid>
       </item>
     
   </channel>

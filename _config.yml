@@ -7,6 +7,9 @@ baseurl:     ""
 url:         "http://pixyll.com"
 date_format: "%b %-d, %Y"
 
+category-list: [Poetry, Cinema, Misc]
+
+
 # Google services
 google_analytics:
 google_verification:
@@ -30,10 +33,10 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: gianni.ecce
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: giacomo.ecce
 skype_username:
 steam_nickname:
 google_plus_id:
@@ -45,10 +48,10 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
+share_facebook: true
+share_twitter: true
 share_googleplus: false
 share_linkedin: false
 share_digg: false

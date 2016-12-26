@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://pixyll.com/lou/2015/10/17/test/</loc>
+    <loc>http://pixyll.com/2016/12/26/looking-for-Bourdieu-trailer/</loc>
+    <lastmod>2016-12-26T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://pixyll.com/2016/12/26/looking-for-Bourdieu/</loc>
+    <lastmod>2016-12-26T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://pixyll.com/2016/12/26/Amor-Fati/</loc>
+    <lastmod>2016-12-26T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://pixyll.com/2015/10/17/test/</loc>
     <lastmod>2015-10-17T00:00:00+01:00</lastmod>
   </url>
   <url>
@@ -66,12 +78,30 @@
     <loc>http://pixyll.com/archive/</loc>
   </url>
   <url>
+    <loc>http://pixyll.com/cinema/</loc>
+  </url>
+  <url>
     <loc>http://pixyll.com/contact/</loc>
   </url>
   <url>
     <loc>http://pixyll.com/</loc>
   </url>
   <url>
+    <loc>http://pixyll.com/poetry/</loc>
+  </url>
+  <url>
     <loc>http://pixyll.com/thanks/</loc>
+  </url>
+  <url>
+    <loc>http://pixyll.com/page2/</loc>
+  </url>
+  <url>
+    <loc>http://pixyll.com/page3/</loc>
+  </url>
+  <url>
+    <loc>http://pixyll.com/page4/</loc>
+  </url>
+  <url>
+    <loc>http://pixyll.com/page5/</loc>
   </url>
 </urlset>
